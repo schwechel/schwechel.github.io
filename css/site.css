@@ -4,11 +4,12 @@
 
 @font-face {
     font-family: 'Brewers';
-    src: url('BrewersIndustrial-Regular.woff') format('woff');
+    src: url('../BrewersIndustrial-Regular.woff') format('woff');
 }
 
 body {
     font-family: Helvetica, Arial, sans-serif;
+    font-size: 20pt;
 }
 
 nav,
@@ -80,5 +81,20 @@ h1 {
     width: 50%;
     text-align: center;
     padding: 48px 60px;
-    margin: 0% 25%;
+    margin: 0 auto;
+}
+
+img.center {
+    display: block;
+    width: 900px;
+    margin: 20px auto;
+}
+
+img.round {
+    border-radius: 20px ;
+}
+
+div.content {
+    width: 50%;
+    margin: 20px auto;
 }
