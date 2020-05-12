@@ -15,6 +15,9 @@ body {
 nav,
 footer {
     font-family: 'Brewers', Helvetica, sans-serif;
+    background: #13294b;
+    color: #ffc72c;
+    text-transform:uppercase;
 }
 
 nav::after{
@@ -28,13 +31,14 @@ footer ul {
     margin: 0;
     padding: 0;
     float: left;
-    width: 100%;
-    background-color: #13294b;
+}
+
+footer ul {
+    float: right;
 }
 
 nav ul li,
 footer ul li {
-    text-decoration: none;
     display: inline;
     margin: 0;
     padding: 0;
@@ -44,17 +48,10 @@ nav ul li a:link,
 nav ul li a:visited,
 footer ul li a:link,
 footer ul li a:visited {
-    background-color: #13294b;
     color: #ffc72c;
     padding:20px 40px;
     float: left;
     text-decoration:none;
-	text-transform:uppercase;
-}
-
-footer ul li a:link,
-footer ul li a:visited {
-    float: right;
 }
 
 nav ul li a:hover,
@@ -65,13 +62,9 @@ footer ul li a:focus {
 	background:#003da5;
 }
 
-footer ul li#copyright {
-    background-color: #13294b;
-    color: #ffc72c;
+div.copyright {
     padding:20px 40px;
-    float: left;
-    text-decoration:none;
-	text-transform:uppercase;
+    display: inline-block;
 }
 
 h1 {
