@@ -9,7 +9,14 @@
 
 body {
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 20pt;
+    font-size: 1.5em;
+    color:#13294b;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 nav,
@@ -67,14 +74,24 @@ div.copyright {
     display: inline-block;
 }
 
-h1 {
+h1,
+h2 {
     font-family: 'Brewers', Helvetica, sans-serif;
     background-color: #ffc72c;
-    color:#13294b;
+    
+}
+
+h1 {
     width: 50%;
     text-align: center;
     padding: 48px 60px;
     margin: 0 auto;
+}
+
+h2 {
+    padding: 24px 30px;
+    margin: 0;
+    display: inline-block;
 }
 
 img.center {
@@ -90,4 +107,17 @@ img.round {
 div.content {
     width: 50%;
     margin: 20px auto;
+}
+
+div.title { 
+    text-decoration: underline;
+    font-size: 1.2em;
+}
+
+div.location,
+div.dates,
+div.position {
+    font-size: .75em;
+    float: left;
+    margin: 7px 20px 7px 0px;
 }
