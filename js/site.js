@@ -28,7 +28,6 @@ var konamiCode = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', '
 var currentIndex = 0;
 
 function konamiCheck(event) {
-  console.log(event.key);
   if (event.key !== konamiCode[currentIndex]) {
 		currentIndex = 0;
 		return;
