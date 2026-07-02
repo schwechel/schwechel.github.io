@@ -142,6 +142,26 @@ div.gameLink a:hover {
     background-color: #003da5;
   }
 
+  #question {
+    font-size: 1.2em;
+    margin: 20px 0 30px;
+  }
+
+  #newQuestionBtn {
+    color:#13294b;
+    font-family: 'Brewers', Helvetica, sans-serif;
+    background-color: #ffc72c;
+    border: none;
+    padding: 1em 1.5em;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  #newQuestionBtn:hover {
+    color: #ffc72c;
+    background-color: #003da5;
+  }
+
   @media only screen and (max-width: 1270px) {
     footer {
        font-size: .5em;
