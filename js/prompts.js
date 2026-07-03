@@ -1,12 +1,10 @@
-const oneOnOneQuestions = [
+const oneOnOnePrompts = [
     "What's one thing that would make your week better?",
-    "What's been the most energizing part of your work lately?",
     "What's been draining your energy lately?",
     "Is there anything blocking you right now that I could help clear?",
     "How do you feel about your current workload?",
     "What's something you learned recently that you're excited about?",
-    "Is there a skill you'd like to grow this quarter?",
-    "What does success look like for you six months from now?",
+    "Is there a skill you'd like to grow?",
     "Is there a project or type of work you'd like more exposure to?",
     "How do you feel about the feedback you've been getting?",
     "Is there feedback you'd like to give me?",
@@ -18,7 +16,6 @@ const oneOnOneQuestions = [
     "What's the biggest source of friction in your day-to-day work?",
     "How do you feel about the pace of the current sprint/project?",
     "Is there anything about the roadmap that's unclear or concerning?",
-    "What's one win from the last couple weeks you're proud of?",
     "Is there a decision I made recently that you disagreed with?",
     "How's your work/life balance been lately?",
     "What's one thing outside of work that's been on your mind?",
@@ -26,5 +23,6 @@ const oneOnOneQuestions = [
     "What would make our 1:1s more useful to you?",
     "Is there a tool, process, or resource you're missing?",
     "What's something you wish leadership understood better?",
-    "Where do you see yourself in a year, and how can I help you get there?"
+    "What is something that I should know about that I might not?",
+    "What is a domain that you own that you should probably not renew?"
 ];

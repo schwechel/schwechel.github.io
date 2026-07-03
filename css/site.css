@@ -142,13 +142,14 @@ div.gameLink a:hover {
     background-color: #003da5;
   }
 
-  #question {
-    font-size: 1.2em;
+  #prompt {
+    font-size: 1.5em;
     margin: 20px 0 30px;
   }
 
-  #newQuestionBtn {
+  #newPromptBtn {
     color:#13294b;
+    font-size: 1em;
     font-family: 'Brewers', Helvetica, sans-serif;
     background-color: #ffc72c;
     border: none;
@@ -157,7 +158,7 @@ div.gameLink a:hover {
     cursor: pointer;
   }
 
-  #newQuestionBtn:hover {
+  #newPromptBtn:hover {
     color: #ffc72c;
     background-color: #003da5;
   }

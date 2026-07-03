@@ -1,22 +1,22 @@
 document.addEventListener('DOMContentLoaded', function() {
-  var questionEl = document.getElementById('question');
-  var newQuestionBtn = document.getElementById('newQuestionBtn');
+  var promptEl = document.getElementById('prompt');
+  var newPromptBtn = document.getElementById('newPromptBtn');
   var lastIndex = -1;
 
-  function showRandomQuestion() {
+  function showRandomPrompt() {
     var index = lastIndex;
-    if (oneOnOneQuestions.length > 1) {
+    if (oneOnOnePrompts.length > 1) {
       while (index === lastIndex) {
-        index = Math.floor(Math.random() * oneOnOneQuestions.length);
+        index = Math.floor(Math.random() * oneOnOnePrompts.length);
       }
     } else {
       index = 0;
     }
     lastIndex = index;
-    questionEl.textContent = oneOnOneQuestions[index];
+    promptEl.textContent = oneOnOnePrompts[index];
   }
 
-  newQuestionBtn.addEventListener('click', showRandomQuestion);
+  newPromptBtn.addEventListener('click', showRandomPrompt);
 
-  showRandomQuestion();
+  showRandomPrompt();
 });
